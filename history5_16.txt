@@ -1,0 +1,421 @@
+    1  cd 'desktop/work -cunningham lab/software carpentry/Users/nelle/creatures'
+    2  for filename in basilisk.dat unicorn.dat ; do       head -2 $filename | tail -n 1; done
+    3  ls
+    4  for filename in basilisk.dat unicorn.dat ; do       head -2 $filename | tail -n 1 > names.txt ; done
+    5  ls
+    6  cat names
+    7  cat names.txt
+    8  nano names.txt
+    9  for filename in basilisk.dat unicorn.dat ; do       head -2 $filename | tail -n 1 ; done
+   10  for filename in basilisk.dat unicorn.dat; do done
+   11  for datafile in *.dat; do      ls *.dat; done
+   12  for datafile in *.dat; do      ls; done
+   13  for datafile in *.dat; do    ls datafile; done
+   14  for datafile in *.dat; do    ls $datafile; done
+   15  for filename in *.dat; do     echo $filename;     head -n 100 $filename| tail -n 20; done
+   16  for filename in *.dat; do     echo $filename echo;     head -n 100 $filename| tail -n 20; done
+   17  for filename in *.dat; do     echo $filename;     head -n 100 $filename| tail -n 20;echo; done
+   18  for filename in *.dat; do     echo $filename;     head -n 100 $filename| tail -n 20;echo; done
+   19  for filename in *.dat; do;     echo $filename;     head -n 100 $filename| tail -n 20;echo; done
+   20  cp *.dat original-*.dat
+   21  for filename in *.dat; do     cp $filename original-$filename; done
+   22  l
+   23  ls
+   24  ls -F
+   25  ls -f
+   26  cd ..
+   27  cd north-pacific-gyre/
+   28  cd 2012-07-03/
+   29  dir
+   30  ls
+   31  for datafile in NENE*[AB].txt; do     echo $datafile; done
+   32  ls NENE*[AB].txt
+   33  for datafile in NENE*[AB].txt; do     echo &datafile stats-$; done
+   34  for datafile in NENE*[AB].txt; do     echo $datafile stats-$; done
+   35  ls
+   36  for datafile in NENE*[AB].txt; do     echo $datafile stats-$datafile; done
+   37  ls
+   38  for datafile in NENE*[AB].txt; do     bash goostats $datafile stats-$datafile; done
+   39  for datafile in NENE*[AB].txt; do  echo $datafile;   bash goostats $datafile stats-$datafile; done
+   40  ls
+   41  goostats
+   42  nano goostats
+   43  nano stats-NENE01729A.txt 
+   44  cat NENE01729A.txt 
+   45  nano goostats
+   46  ls -l
+   47  goostats
+   48  ./goostats
+   49  cd..
+   50  cd ..
+   51  cd ..
+   52  cd molecules/
+   53  dir
+   54  nano middle.sh
+   55  cat middle.sh
+   56  bash middle.sh
+   57  head -15 octane.pdb | tail -n 5
+   58  nano middle.sh
+   59  bash middle.sh octane.pdb
+   60  bash middle.sh ethane.pdb
+   61  bash middle.sh pentane.pdb 
+   62  nano middle.sh 
+   63  bash middle.sh pentane.pdb 5 2
+   64  bash middle.sh pentane.pdb 1 1
+   65  bash middle.sh pentane.pdb 10 12
+   66  nano middle.sh
+   67  nano middle.sh 
+   68  bash middle.sh pentane.pdb 10 12
+   69  nano middle.sh 
+   70  exit
+   71  history
+   72  cd 'desktop/work -cunningham lab/software carpentry/Users/nelle/creatures'
+   73  history > history.txt
+   74  nano history.txt
+   75  git config
+   76  git config --global user.name "Clay Sandel" user.email "claysandel@gmail.com"
+   77  git config --global core.autocrlf true
+   78  git config --list
+   79  git config --global core.editor "nano -w"
+   80  git config --list
+   81  history
+   82  nano
+   83  dir
+   84  psd
+   85  pwd
+   86  ls
+   87  ls -F
+   88  ls 0f
+   89  ls -f
+   90  cd desktop
+   91  cd..
+   92  cd ../..
+   93  cd..
+   94  cd ..
+   95  mkdir planets
+   96  cd planets
+   97  ls
+   98  get init
+   99  git init
+  100   ls -a
+  101  git status
+  102  cd ..
+  103  cd planets
+  104  mkdir moons
+  105  cd moons
+  106  git status
+  107  ls
+  108  ls -a
+  109  get init
+  110  git init
+  111  ls -a
+  112  cd ..
+  113  ls -a
+  114  ls moons -a
+  115  pwd
+  116  git status
+  117  cd moons
+  118  rm -rf moons/.git
+  119  ls -a
+  120  rm -rf .git
+  121  ls -a
+  122  cd ..
+  123  pwd
+  124   nano mars.txt
+  125  cat mars.txt
+  126  git status
+  127  git add mars.txt
+  128  git status
+  129  git commit
+  130  get commit -m
+  131  git commit -m "added info about mars color"
+  132  git list
+  133  git config --list
+  134  git config --global list
+  135  history
+  136  git config --list
+  137  git config --global user.name "Clay Sandel" user.email "claysandel@gmail.com"
+  138  git config --list
+  139  git config --global user.name "Clay Sandel"
+  140  git config --global user.email "claysandel@gmail.com"
+  141  git config --list
+  142  git commit -m "added info about mars color"
+  143  git log
+  144  git commit
+  145  git commit -m
+  146  git
+  147  nano mars.txt
+  148  git status
+  149  git sta
+  150  git commit -m "info on mars moons"
+  151  git commit mars.txt
+  152  git status
+  153  git log
+  154  git status
+  155  git add mars.txt 
+  156  git commit -m "added info about moons"
+  157  git log
+  158  git stage
+  159  git diff
+  160  nano mars.txt
+  161  git diff
+  162  cat mars.txt 
+  163  git diff
+  164  git add mars.txt 
+  165  git dif
+  166  git diff
+  167  git rem
+  168  git --help
+  169  git rm mars.txt 
+  170  git rm mars.txt -f
+  171  cat mar
+  172  cat mars.txt
+  173  ls
+  174  nano mars.txt
+  175  git add mars.txt 
+  176  git commit -m
+  177  git commit -m "added info on color"
+  178  nano mars.txt 
+  179  git add mars.txt 
+  180  git commit -m "added info on moons"
+  181  git status
+  182  git --help
+  183  git help rm
+  184  git diff
+  185  ls
+  186  nano mars.txt 
+  187  cat mars
+  188  cat mars.txt 
+  189  git diff
+  190  git diff HEAD mars.txt
+  191  git diff HEAD~1 mars.txt
+  192  git diff HEAD~2 mars.txt
+  193  git diff HEAD~3 mars.txt
+  194  ls
+  195  cd moons
+  196  ls
+  197  cd ..
+  198  cat mars.txt 
+  199  git diff HEAD mars.txt
+  200  git diff HEAD~1 mars.txt
+  201  git diff HEAD~2 mars.txt
+  202  nano mars.txt 
+  203  git diff --staged
+  204  git diff mars.txt
+  205  git diff --staged HEAD~1 mars.txt
+  206  git diff --staged HEAD~2 mars.txt
+  207  git diff mars.txt
+  208  git show mars.txt
+  209  git show HEAD~2 mars.txt
+  210  git log
+  211  git diff dcb180c7d584a590a8264b11171555977624a2af mars.txt
+  212  get diff dcb
+  213  git diff dcb
+  214  git diff dcb180
+  215  git status
+  216  git reset HEAD mars.txt
+  217  git diff
+  218  get status
+  219  git status
+  220  cat mars.txt
+  221  git status
+  222  git add mars.txt
+  223  git status
+  224  git reset HEAD mars.txt
+  225  git status
+  226  git checkout HEAD mars.txt
+  227  cat mars
+  228  cat mars.txt 
+  229  git checkout HEAD~1 mars.txt
+  230  cat mars.txt
+  231  git log
+  232  git checkout dcb180c7d584a590a8264b11171555977624a2af
+  233  git status
+  234  cat mars.txt 
+  235  get commit -m "color added"
+  236  git commit -m "color is red added"
+  237  git checkout dcb180c7d584a590a8264b11171555977624a2af
+  238  cat mars.txt 
+  239  git add moons
+  240  ls moons
+  241  git commit mars.txt 
+  242  rm mars.txt 
+  243  git
+  244  cd moons
+  245  touch filename.txt
+  246  git checkout  master
+  247  get checkout dcb180c
+  248  git checkout dcb180c
+  249  get checkout master
+  250  git checkout master
+  251  help touch
+  252  pwd
+  253  ls moons
+  254  ls
+  255  de ..
+  256  git stats
+  257  git status
+  258  git add filename.txt
+  259  git stats
+  260  git status
+  261  $ cd planets
+  262  $ echo "Venus is beautiful and full of love" > venus.txt
+  263  $ git add venus.txt
+  264  $ echo "Venus is too hot to be suitable as a base" >> venus.txt
+  265  $ git commit -m "Comment on Venus as an unsuitable base"
+  266  $ git checkout HEAD venus.txt
+  267  cd planets
+  268  cd ..
+  269  echo "venus is beautiful and full of love" > venus.txt
+  270  git add venus.txt
+  271  echo "venus is too hot to be suitable as a base" >>venus.txt
+  272  git commit -m "comment on venus as unsuitable base"
+  273  git checkout head venus.txt
+  274  cat venus.txt 
+  275  git status
+  276  git add venus.txt 
+  277  git commit -m "base comment"
+  278  cat venus.txt 
+  279  nano venus.txt 
+  280  echo "venus is too hot to be a base" >> venus.txt 
+  281  cat venus.txt 
+  282  get commit m "comment on base"
+  283  git commit -m "comment on base"
+  284  cat venus.txt 
+  285  git checkout HEAD venus.txt
+  286  cat venus.txt 
+  287  git list
+  288  git rev-list
+  289  ech "another line" >>venus.txt 
+  290  echo "another line" >>venus.txt 
+  291  git diff
+  292  echo "yet another line" >> venus.txt 
+  293  cat venus.txt 
+  294  diff venus.txt 
+  295  git diff venus.txt
+  296  get add venus.txt 
+  297  git add venus.txt 
+  298  git status
+  299  cat venus.txt 
+  300  git status
+  301  echo "asdf" >>venus.txt 
+  302  git status
+  303  pwd
+  304  mkdir results
+  305  cd results
+  306  git status
+  307  touch a.dat b.dat
+  308  touch c.dat
+  309  help touch
+  310  man -k touch
+  311  info touch
+  312  ls
+  313  mv a.dat ..
+  314  mv b.dat ..
+  315  mv c.dat ..
+  316  ls
+  317  cd ..
+  318  git status
+  319  ls
+  320  mkdir results
+  321  ls
+  322  nano .gitignore
+  323  cat .gitignore
+  324  nano .gitignore 
+  325  ls
+  326  cd results
+  327  ls
+  328  cd ..
+  329  cat .gitignore 
+  330  git status
+  331  get commit -m "another change"
+  332  git commit -m "another change"
+  333  git add ven
+  334  git add venus.txt 
+  335  get commit -m "another change2"
+  336  git commit -m "another change2"
+  337  git status
+  338  git add .gitignore 
+  339  git commit -m "ignore data and results"
+  340  git status
+  341  git add moons/venus.txt
+  342  git commit -m "added directory"
+  343  git status
+  344  git add a.dat
+  345  git status
+  346  git status --ignore
+  347  git status --ignored
+  348  ls
+  349  rmdir results
+  350  git status
+  351  mkdir results
+  352  git status
+  353  git status --ignored
+  354  ls
+  355  mkdir asdf
+  356  git stats
+  357  git status
+  358  rmdir asdf
+  359  git status
+  360  mkdir asdf
+  361  git status
+  362  cd asdf
+  363  nano asdf.txt
+  364  cd ..
+  365  git status
+  366  ls /asdf
+  367  cd asdf
+  368  ls
+  369  nano asdf.txt
+  370  cd ..
+  371  git status
+  372  cd ..
+  373  cd planets
+  374  ls
+  375  mv a.dat results
+  376  git status
+  377  git --ignored
+  378  git status --ignored
+  379  mv b.dat results
+  380  mv c.dat results
+  381  dir
+  382  rmdir asdf
+  383  rmdir asdf -rf
+  384  rmdir asdf -f
+  385  rm asdf -rf
+  386  ls
+  387  git status --ignored
+  388  cd ..
+  389  git status --ignored
+  390  cd ..
+  391  cd software\ carpentry/
+  392  cd planets/
+  393  cd results/
+  394  git status --ignored
+  395  cd..
+  396  cd ..
+  397  git status --ignored
+  398  mv results a.dat ..
+  399  cd results
+  400  ls
+  401  ls
+  402  ls -a
+  403  nano .gitignore 
+  404  ls
+  405  cd ..
+  406  ls
+  407  mvdir results planets
+  408  mv results planets
+  409  cd planets/
+  410  git status --ignored
+  411  nano .gitignore 
+  412  cd results
+  413  ls
+  414  cd ..
+  415  ls
+  416  git status --ignored
+  417  git add .gitignore 
+  418  commit -m "same as instructed"
+  419  git commit -m "same as instructed"
+  420  git status --ignored
+  421  history > history5_16.txt
